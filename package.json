@@ -1,0 +1,66 @@
+{
+  "name": "lanscaperswebsite",
+  "version": "1.0.0",
+  "description": "website for Heath Ellerup & Co Landscaping Services",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-social": "^5.1.1",
+    "browser-sync": "^2.18.13",
+    "cssmin": "^0.4.3",
+    "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-rev": "^8.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "htmlmin": "0.0.7",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.2.2",
+    "node-sass": "^4.5.3",
+    "onchange": "^3.2.1",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "tether": "^1.4.3",
+    "uglify-js": "^3.1.5",
+    "usemin-cli": "^0.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "popper.js": "^1.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgordon95/LandscapersWebsite.git"
+  },
+  "keywords": [
+    "landscaping",
+    "landscapers",
+    "tree",
+    "removal",
+    "gardening",
+    "home",
+    "improvement",
+    "tree",
+    "removal",
+    "lawn",
+    "lawnmowing",
+    "mowing",
+    "repair",
+    "recycling"
+  ],
+  "author": "Richard Gordon for Gordon Enterprises LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgordon95/LandscapersWebsite/issues"
+  },
+  "homepage": "https://github.com/rgordon95/LandscapersWebsite#readme"
+}

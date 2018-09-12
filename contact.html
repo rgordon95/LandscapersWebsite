@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+	<meta http-equiv='x-ua-compatible' content='ie=edge'>
+
+  <meta name="description" content="Ellerup Landscaping specializes in tree removal, lawn care, as well as taking care of general landscaping needs.">
+	<meta name="keywords" content="landscaping, landscapers,  tree, removal, gardening, home, improvement, tree, removal, lawn, lawnmowing, mowing, repair, recycling, entrepreneurialism, entrepreneur, business, consulting,">
+	<meta name="robots" content="index">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- Google Captcha -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<title> Ellerup Landscaping LLC | Best Landscaping in Capital Region | Tree Removal Experts</title>
+</head>
+
+<body>
+	<!-- Begin Body & Navbar -->
+	<nav class='navbar navbar-inverse navbar-expand-lg fixed-top'>
+		<div class='container-fluid'>
+			<!-- Container 1 -->
+			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class='fas fa-bars fa-lg'></span>
+         </button>
+			<!--     <a class='navbar-brand' href='#'> <img src='img/seneLogo.png' height='30' width='41'> </a>  removed navbar logo img -->
+			<div class='collapse navbar-collapse' id='navbar'>
+				<ul class='navbar-nav mr-auto'>
+					<li class='nav-item'><a class='nav-link' href='./index.html' title='Return Home'> Home</a></li>
+					<li class='nav-item'><a class='nav-link' href='./faq.html' title='Visit our Frequently Asked Questions Page'> FAQ</a></li>
+					<li class='nav-item active'><a class='nav-link' href='./contact.html' title='Refresh the Contact page'> Contact</a></li>
+				</ul>
+			</div>
+			<!-- Close navbar collapse div-->
+		</div>
+		<!--Close container 1 -->
+	</nav>
+	<!-- End Nav -->
+
+
+		<main class='container-fluid'>
+			<!-- Container 2-->
+			<div class 'row row-header'>
+					<h1 class='d-none d-sm-block my-4 col col-12'> Contact Us </h1>
+					<p class='d-none d-md-block mb-5 col col-12'>Have something on your mind you would like to share with us? Questions, comments, concerns or suggestions can be sent below. We look forward to hearing from you! </p>
+			</div>
+		</main>
+
+		<!-- Actual feedback form -->
+		<content class="container-fluid" id='feedback'>
+			<div class="row row-12">
+				<div class="card col col-12">
+					<div class="card-heading">
+						<h1 id="feedback-head">Request A Consulation</h1>
+					</div>
+
+					<div class="card-body">
+						<!-- Start form -->
+							<!-- Post request to php script -->
+							<form action="./php/feedback_handler.php" method="post" name="form">
+
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="Email" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="subject" name="subject" class="form-control" placeholder="Subject" required><br>
+								</div>
+
+								<div class="form-group">
+									<textarea name="msg" class="form-control" placeholder="Feedback" rows="4" required></textarea><br>
+								</div>
+
+								<div id="captcha">
+									<div class="g-recaptcha" data-sitekey="6LfH6CYUAAAAABpPRnS13C7lJCrcfKXEkjFVnJF8"></div>
+								</div>
+
+								<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
+
+							</form>
+					</div>
+
+				</div>
+
+			</div>
+		</content>
+
+		<footer class='footer container-fluid'>
+			<div class='row'>
+				<div class='col-5 col-sm-2 offset-1'>
+					<h5 class='mb-3'>Links</h5>
+					<ul class='list-unstyled'>
+						<li><a href='./index.html' title='Return home'>Home</a></li>
+						<li><a href='./faq.html' title='Visit Frequently Asked Questions Page'>FAQ</a></li>
+						<li><a href='./contact.html' title='Refresh the Contact page'>Contact</a></li>
+					</ul>
+				</div>
+				<div class='col-6 col-sm-5'>
+					<h5 class='mb-3'>Location</h5>
+					<address>
+				  	Guilderland, New York<br>
+				   	USA
+					  <br>
+						<span class='fas fa-envelope d-none d-md-block'><a href='@.com' title='Email us' class=''>enter@emailhere.com</a></span>
+			    </address>
+				</div>
+				<div class='col col-sm-4 align-self-center'>
+					<div style='text-align:center'>
+						<a class='btn btn-social-icon btn-facebook' href='https://www.facebook.com/' title='Connect with us on Facebook'><span class='fab fa-facebook'></span></a>
+						<a class='btn btn-social-icon btn-twitter' href='https://www.twitter.com/' title='Connect with us on Twitter'><span class='fab fa-twitter'></span></a>
+						<a class='btn btn-social-icon fa-md' href='https://www.instagram.com/' title='Connect with us on Instagram'><span class='fab fa-instagram'></span></a>
+						<a class='btn btn-social-icon fa-md' href='mailto:.com' title='Email Us'><span class='fas fa-envelope'></span></a>
+					</div>
+				</div>
+			</div>
+			<div class='row justify-content-center'>
+				<div class='col col-auto'>
+					<p>Created by Gordon Enterprises</p></a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js' crossorigin='anonymous'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
+
+
+		<!-- Submit form to php -->
+		<script>
+			$("form").on("submit", function(e) {
+				e.preventDefault();
+				if(grecaptcha.getResponse().length !== 0) {
+					$(".btn").prop("disabled", true);
+					$(".btn").attr("value", "Feedback Submitted!");
+				}
+				else {
+					$(".btn").attr("value", "Click captcha");
+				}
+				$.ajax({
+					type: "post",
+					url: "./php/feedback_handler.php",
+					data: $("form").serialize(),
+					success: function() {
+
+					}
+				})
+			})
+		</script>
+
+</body>
+
+</html>
