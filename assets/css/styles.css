@@ -1,2 +1,12 @@
 .jumbotron {
-  background-image: url(""); }
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto; }
+
+nav {
+  background-color: green;
+  color: white; }

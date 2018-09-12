@@ -1,8 +1,32 @@
 
 //site wide styles
+//header
 .jumbotron {
-  background-image: url('');
-}
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  //  background-image: url('../img/abstract-art-artificial-131634.jpg');
+//  background-image: url('../img/background-bokeh-green-6466.jpg');
+  //  background-image: url('../img/close-up-green-nature-207269.jpg');
+  //  background-image: url('../img/abstract-dew-fresh-207355.jpg');
+//    background-image: url('../img/agriculture-biology-close-up-396166.jpg');
+//   background-image: url('../img/asymmetry-botanical-bright-1029592.jpg');
+//    background-image: url('../img/flora-flowes-green-122429.jpg');
+    width: auto;
+    }
+
+//end header styles
+
+//nav stylesheet
+  nav {
+    background-color: green;
+    color: white;
+  }
+
+//end nav stylesheet
 
 //end site wide stylesheet
 
