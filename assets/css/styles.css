@@ -5,8 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  background-image: url("../img/abstract-art-artificial-131634.jpg");
   width: auto; }
 
 nav {
   background-color: green;
   color: white; }
+
+footer {
+  background-image: url("../img/abstract-dew-fresh-207355.jpg"); }
