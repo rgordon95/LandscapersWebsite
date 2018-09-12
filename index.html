@@ -34,7 +34,7 @@
 		</div>
 	</header>
 
-	<nav class='navbar sticky-top navbar-expand-lg'>
+	<nav class='navbar fixed-top navbar-expand-lg'>
 		<div class='container-fluid'>
 			<!-- Container 1 -->
 			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,11 +44,34 @@
 			<div class='collapse navbar-collapse' id='navbar'>
 				<ul class='navbar-nav mr-auto'>
 					<li class='nav-item active'><a class='nav-link' href='./index.html' title='Refresh Page'> Home</a></li>
+					<div id ='servicesDrop' class="dropdown">
+					<a class="dropdown-toggle" type="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						SERVICES
+				 </a>
+				 <div class="nav-item dropdown-menu" aria-labelledby="dropdownMenuButton">
+					 <a class="dropdown-item" href="#" title='download Sense on the google play store now'><span class='fab fa-android'></span> Android</a>
+					 <a class="dropdown-item" href="#" title='get Sense on the ios app store now'><span class='fab fa-apple'></span> ios</a>
+					 <a class="dropdown-item" href="#" title='get the Sense chrome extension by clicking here'><span class='fab fa-chrome icon'> Chrome</span></a>
+				 </div>
+			 </div>
 					<li class='nav-item'><a class='nav-link' href='./faq.html' title='Visit our Frequently Asked Questions Page'> FAQ</a></li>
 					<li class='nav-item'><a class='nav-link' href='./contact.html' title='Visit Our Contact Page'> Contact</a></li>
 				</ul>
+
+		 <div id ='downloadDropdown' class="dropdown">
+		 <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			 SERVICES
+		</button>
+		<div class="nav-item dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<a class="dropdown-item" href="#" title='download Sense on the google play store now'><span class='fab fa-android'></span> Android</a>
+			<a class="dropdown-item" href="#" title='get Sense on the ios app store now'><span class='fab fa-apple'></span> ios</a>
+			<a class="dropdown-item" href="#" title='get the Sense chrome extension by clicking here'><span class='fab fa-chrome icon'> Chrome</span></a>
+		</div>
+	</div>
+
 				<span id='logoHide'>Ellerup Landscaping</span>
 				<span id='mottoHide'>Tree Removal Experts</span>
+
 
 			</div>
 			<!-- Close navbar collapse div-->
