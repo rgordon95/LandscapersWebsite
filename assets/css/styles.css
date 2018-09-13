@@ -21,6 +21,9 @@ footer {
   footer a {
     color: #edecf5; }
 
+#contact {
+  margin-top: 65px; }
+
 #feedback {
   margin-bottom: 25px;
   /* Form itself */
