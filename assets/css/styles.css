@@ -110,3 +110,5 @@ content.services {
   color: #01792a;
   text-align: center;
   width: 85%; }
+  content.services .card {
+    border-color: #39da73; }
