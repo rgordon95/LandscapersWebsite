@@ -22,6 +22,7 @@ $linkActiveColor: $accentColor;
 //    background-image: url('../img/agreengriculture-biology-close-up-396166.jpg');
 //   background-image: url('../img/asymmetry-botanical-bright-1029592.jpg');
 //    background-image: url('../img/flora-flowes-green-122429.jpg');
+    margin-top: 52px;
     width: auto;
     }
 
@@ -31,7 +32,7 @@ $linkActiveColor: $accentColor;
   nav {
     background-color: $primaryColor;
     color: white;
-    border-top: 40px solid $secondaryColor;
+  //  border-top: 40px solid $secondaryColor;
   }
 
 //end nav stylesheet
