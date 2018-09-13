@@ -10,6 +10,18 @@
   margin-top: 52px;
   width: auto; }
 
+a {
+  color: #edecf5; }
+
+a:hover {
+  color: #39da73; }
+
+a:active {
+  color: #3e824f; }
+
+a:focus {
+  color: #3e824f; }
+
 nav {
   background-color: #01792a;
   color: white; }
@@ -19,14 +31,6 @@ footer {
   background-color: #01792a;
   padding-top: 20px;
   color: #edecf5; }
-  footer a {
-    color: #edecf5; }
-  footer a:hover {
-    color: #39da73; }
-  footer a:active {
-    color: #3e824f; }
-  footer a:focus {
-    color: #3e824f; }
   footer .tag {
     margin-bottom: 25px; }
 

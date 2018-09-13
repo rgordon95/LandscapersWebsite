@@ -39,6 +39,21 @@ $linkActiveColor: $accentColor;
 
 //end header styles
 
+//body stylesheet sitewide
+a {
+  color: $highlightColor;
+}
+a:hover {
+  color: $linkHoverColor;
+}
+a:active {
+  color: $linkActiveColor;
+}
+a:focus {
+  color: $linkActiveColor;
+}
+//end sitewide body stylesheet
+
 //nav stylesheet
   nav {
     background-color: $primaryColor;
@@ -55,18 +70,6 @@ footer {
   padding-top: 20px;
   color: $highlightColor;
 //  background-image: url('../img/abstract-dew-fresh-207355.jpg');
-  a {
-    color: $highlightColor;
-}
-  a:hover {
-    color: $linkHoverColor;
-  }
-  a:active {
-    color: $linkActiveColor;
-  }
-  a:focus {
-    color: $linkActiveColor;
-  }
   span {
   //  border-bottom: 2px solid $secondaryColor;
   }
