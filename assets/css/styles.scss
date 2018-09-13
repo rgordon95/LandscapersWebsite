@@ -171,6 +171,10 @@ footer {
 //index specific stylesheet
 content {
   padding-top: 15px;
+  .bigImg {
+    height: 450px;
+    width: auto;
+  }
 }
 
 content.about {
@@ -197,6 +201,18 @@ content.services {
   .card {
     border-color: $secondaryColor;
     margin-top: 35px;
+  }
+}
+
+content.service1, content.service2 {
+  color: $primaryColor;
+  h2 {
+    text-align: center;
+    padding-top: 35px;
+  }
+  p {
+    text-align: center;
+    margin-top: 25px;
   }
 }
 //end index specific stylesheet

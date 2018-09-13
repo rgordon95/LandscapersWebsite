@@ -100,6 +100,9 @@ footer {
 
 content {
   padding-top: 15px; }
+  content .bigImg {
+    height: 450px;
+    width: auto; }
 
 content.about {
   padding-top: 50px;
@@ -125,3 +128,12 @@ content.services {
   content.services .card {
     border-color: #39da73;
     margin-top: 35px; }
+
+content.service1, content.service2 {
+  color: #01792a; }
+  content.service1 h2, content.service2 h2 {
+    text-align: center;
+    padding-top: 35px; }
+  content.service1 p, content.service2 p {
+    text-align: center;
+    margin-top: 25px; }
