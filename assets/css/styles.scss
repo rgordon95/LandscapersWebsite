@@ -3,7 +3,7 @@ $secondaryColor: #39da73;
 $accentColor: #3e824f;
 $highlightColor: rgb(237, 236, 245);
 $linkColor: rgb(37, 150, 153);
-$linkFocusColor: $secondaryColor;
+$linkHoverColor: $secondaryColor;
 $linkActiveColor: $accentColor;
 
 //site wide styles
@@ -23,6 +23,16 @@ $linkActiveColor: $accentColor;
 //    background-image: url('../img/agriculture-biology-close-up-396166.jpg');
 //   background-image: url('../img/asymmetry-botanical-bright-1029592.jpg');
 //    background-image: url('../img/flora-flowes-green-122429.jpg');
+// untested
+//   background-image: url('../img/blade-blur-dew-212324.jpg');
+//   background-image: url('../img/bloom-blossom-flora-57368.jpg');
+//   background-image: url('../img/bloom-blossom-flora-158636.jpg');
+//   background-image: url('../img/arrangement-bloom-blooming-462402.jpg');
+//   background-image: url('../img/beautiful-branch-conifer-1058155.jpg');
+//   background-image: url('../img/beautiful-bloom-blooming-109828.jpg');
+//   background-image: url('../img/beautiful-bloom-blooming-130847.jpg');
+// background-image: url('../img/architecture-clouds-daylight-259588.jpg');
+// background-image: url('../img/background-beautiful-bloom-985266.jpg')
     margin-top: 52px;
     width: auto;
     }
@@ -47,7 +57,20 @@ footer {
 //  background-image: url('../img/abstract-dew-fresh-207355.jpg');
   a {
     color: $highlightColor;
+}
+  a:hover {
+    color: $linkHoverColor;
   }
+  a:active {
+    color: $linkActiveColor;
+  }
+  a:focus {
+    color: $linkActiveColor;
+  }
+  span {
+  //  border-bottom: 2px solid $secondaryColor;
+  }
+
   .tag {
     margin-bottom: 25px;
   }
@@ -153,6 +176,7 @@ footer {
   	margin-top: 30px;
   	min-width: 50%;
   	max-width: 75%;
+
   }
 
   .card-body {
@@ -203,10 +227,12 @@ content.services {
   .card {
     border-color: $secondaryColor;
     margin-top: 35px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
 content.service1, content.service2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: $primaryColor;
   padding-bottom: 35px;
   h2 {
