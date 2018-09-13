@@ -17,9 +17,12 @@ nav {
 footer {
   border-top: 2px solid #39da73;
   background-color: #01792a;
-  padding-top: 20px; }
+  padding-top: 20px;
+  color: #edecf5; }
   footer a {
     color: #edecf5; }
+  footer .tag {
+    margin-bottom: 25px; }
 
 #contact {
   color: #01792a;
@@ -82,7 +85,7 @@ footer {
     background-color: #01792a; }
   #feedback .btn-primary {
     color: #01792a;
-    background-color: white;
+    background-color: #edecf5;
     border-color: #01792a; }
   #feedback .card {
     margin: auto;
@@ -110,6 +113,9 @@ content.services {
   margin-left: auto;
   color: #01792a;
   text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 85%; }
   content.services .card {
     border-color: #39da73; }

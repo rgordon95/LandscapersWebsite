@@ -43,12 +43,14 @@ footer {
   border-top: 2px solid $secondaryColor;
   background-color: $primaryColor;
   padding-top: 20px;
-
+  color: $highlightColor;
+//  background-image: url('../img/abstract-dew-fresh-207355.jpg');
   a {
     color: $highlightColor;
   }
-
-//  background-image: url('../img/abstract-dew-fresh-207355.jpg');
+  .tag {
+    margin-bottom: 25px;
+  }
 }
 //end sitewide footer sheet
 
@@ -139,7 +141,7 @@ footer {
 
   .btn-primary {
   	color: $primaryColor;
-    background-color: white;
+    background-color: $highlightColor;
     border-color: $primaryColor;
   }
 
@@ -183,6 +185,7 @@ content.services {
   margin-left: auto;
   color: $primaryColor;
   text-align: center;
+  justify-content: space-between;
   width: 85%;
   .card {
     border-color: $secondaryColor;
