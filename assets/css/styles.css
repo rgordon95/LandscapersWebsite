@@ -138,3 +138,9 @@ content.service1, content.service2 {
   content.service1 p, content.service2 p {
     text-align: center;
     margin-top: 25px; }
+
+content.service1 img {
+  padding-left: 35px; }
+
+content.service2 img {
+  padding: 15px; }
