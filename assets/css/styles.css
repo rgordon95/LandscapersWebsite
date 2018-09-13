@@ -22,7 +22,10 @@ footer {
     color: #edecf5; }
 
 #contact {
-  margin-top: 65px; }
+  color: #01792a;
+  margin-top: 75px;
+  text-align: center;
+  margin-bottom: 50px; }
 
 #feedback {
   margin-bottom: 25px;
