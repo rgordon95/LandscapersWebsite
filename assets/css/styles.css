@@ -98,6 +98,9 @@ footer {
   #feedback .form-group {
     margin-bottom: 10px; }
 
+content {
+  padding-top: 15px; }
+
 content.about {
   padding-top: 50px;
   margin-right: auto;
@@ -105,9 +108,11 @@ content.about {
   color: #01792a;
   text-align: center;
   width: 60%; }
+  content.about p {
+    margin-top: 35px; }
 
 content.services {
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -118,4 +123,5 @@ content.services {
           justify-content: space-between;
   width: 85%; }
   content.services .card {
-    border-color: #39da73; }
+    border-color: #39da73;
+    margin-top: 35px; }

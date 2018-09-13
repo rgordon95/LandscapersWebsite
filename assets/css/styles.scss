@@ -169,6 +169,10 @@ footer {
 //end contact specific stylesheet
 
 //index specific stylesheet
+content {
+  padding-top: 15px;
+}
+
 content.about {
   padding-top: 50px;
   margin-right: auto;
@@ -176,10 +180,13 @@ content.about {
   color: $primaryColor;
   text-align: center;
   width: 60%;
+  p {
+    margin-top: 35px;
+  }
 }
 
 content.services {
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -189,8 +196,7 @@ content.services {
   width: 85%;
   .card {
     border-color: $secondaryColor;
-  //  margin-left: 5px;
-  //  margin-right: 5px;
+    margin-top: 35px;
   }
 }
 //end index specific stylesheet
