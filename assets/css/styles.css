@@ -26,3 +26,10 @@ content.about {
   color: #01792a;
   text-align: center;
   width: 60%; }
+
+content.services {
+  margin-right: auto;
+  margin-left: auto;
+  color: #01792a;
+  text-align: center;
+  width: 60%; }
