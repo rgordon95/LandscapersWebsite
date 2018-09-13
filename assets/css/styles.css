@@ -21,6 +21,74 @@ footer {
   footer a {
     color: #edecf5; }
 
+#feedback {
+  margin-bottom: 25px;
+  /* Form itself */
+  /* Resize testarea */
+  /* Google captcha */
+  /* Fix sizing on captcha */
+  /* Submit button */
+  /* All feedback in a card */ }
+  #feedback #feedback-head {
+    text-align: center;
+    color: #01792a;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #feedback #mail-form {
+    width: 85%;
+    max-width: 500px; }
+  #feedback textarea {
+    resize: none;
+    overflow: scroll; }
+  #feedback #captcha {
+    margin-bottom: 30px; }
+  #feedback .g-recaptcha div {
+    margin-left: auto;
+    margin-right: auto; }
+  @media only screen and (max-width: 420px) {
+    #feedback .g-recaptcha {
+      -webkit-transform: scale(0.81);
+              transform: scale(0.81);
+      -webkit-transform-origin: 0;
+              transform-origin: 0; } }
+  #feedback .btn-primary:hover {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:active {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:focus {
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:active:focus {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:disabled {
+    color: white;
+    background-color: #01792a; }
+  #feedback .btn-primary:disabled:hover {
+    color: white;
+    background-color: #01792a; }
+  #feedback .btn-primary {
+    color: #01792a;
+    background-color: white;
+    border-color: #01792a; }
+  #feedback .card {
+    margin: auto;
+    margin-top: 30px;
+    min-width: 50%;
+    max-width: 75%; }
+  #feedback .card-body {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #feedback .form-group {
+    margin-bottom: 10px; }
+
 content.about {
   padding-top: 50px;
   margin-right: auto;

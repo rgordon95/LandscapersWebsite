@@ -57,6 +57,106 @@ footer {
 
 
 //contact specific stylesheet
+#feedback {
+      margin-bottom: 25px;
+
+     #feedback-head {
+      	text-align: center;
+        color: $primaryColor;
+      	font-size: 30px;
+      	font-family: 'Quicksand', sans-serif;
+      	margin-top: 20px;
+      	margin-bottom: 20px;
+      }
+
+  /* Form itself */
+  #mail-form {
+  	width: 85%;
+  	max-width: 500px;
+  }
+
+  /* Resize testarea */
+  textarea {
+  	resize: none;
+  	overflow: scroll;
+  }
+
+  /* Google captcha */
+  #captcha {
+  	margin-bottom: 30px;
+  }
+
+  /* Fix sizing on captcha */
+  .g-recaptcha div { margin-left: auto; margin-right: auto;}
+
+  @media only screen and (max-width: 420px) {
+  	.g-recaptcha {
+  	transform:scale(0.81);
+  	transform-origin: 0;
+  	}
+  }
+
+  /* Submit button */
+  .btn-primary:hover {
+    color: $secondaryColor;
+  	background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:active {
+    color: $secondaryColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:focus {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:active:focus {
+    color: $secondaryColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-primary:disabled {
+  	color: white;
+  	background-color: $primaryColor;
+  }
+
+  .btn-primary:disabled:hover {
+  	color: white;
+  	background-color: $primaryColor;
+  }
+
+  .btn-primary {
+  	color: $primaryColor;
+    background-color: white;
+    border-color: $primaryColor;
+  }
+
+  /* All feedback in a card */
+  .card {
+  	margin: auto;
+  	margin-top: 30px;
+  	min-width: 50%;
+  	max-width: 75%;
+  }
+
+  .card-body {
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+
+  .form-group {
+  	margin-bottom: 10px;
+  }
+
+
+
+} //feedback
+
 //end contact specific stylesheet
 
 //index specific stylesheet
