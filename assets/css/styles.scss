@@ -29,7 +29,7 @@ $linkActiveColor: $accentColor;
 
 //nav stylesheet
   nav {
-    background-color: green;
+    background-color: $primaryColor;
     color: white;
   }
 
@@ -37,8 +37,14 @@ $linkActiveColor: $accentColor;
 
 //footer stylesheet
 footer {
-  border-top: 2px solid green;
+  border-top: 2px solid $secondaryColor;
+  background-color: $primaryColor;
   padding-top: 20px;
+
+  a {
+    color: $highlightColor;
+  }
+
 //  background-image: url('../img/abstract-dew-fresh-207355.jpg');
 }
 //end sitewide footer sheet
@@ -51,6 +57,12 @@ footer {
 //end contact specific stylesheet
 
 //index specific stylesheet
+content.about {
+  color: $primaryColor;
+  text-align: center;
+  width: 60%;
+}
+
 //end index specific stylesheet
 
 
