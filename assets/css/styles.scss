@@ -9,6 +9,7 @@ $linkActiveColor: $accentColor;
 //site wide styles
 //header
 .jumbotron {
+    text-align: center;
     color: white;
     background-attachment: fixed;
     background-position: center;
@@ -60,6 +61,7 @@ footer {
 
 //index specific stylesheet
 content.about {
+  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   color: $primaryColor;
@@ -68,11 +70,16 @@ content.about {
 }
 
 content.services {
+  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   color: $primaryColor;
   text-align: center;
-  width: 60%;
+  width: 85%;
+  .card {
+  //  margin-left: 5px;
+  //  margin-right: 5px;
+  }
 }
 //end index specific stylesheet
 

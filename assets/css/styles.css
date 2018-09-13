@@ -1,4 +1,5 @@
 .jumbotron {
+  text-align: center;
   color: white;
   background-attachment: fixed;
   background-position: center;
@@ -21,6 +22,7 @@ footer {
     color: #edecf5; }
 
 content.about {
+  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   color: #01792a;
@@ -28,8 +30,9 @@ content.about {
   width: 60%; }
 
 content.services {
+  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
   color: #01792a;
   text-align: center;
-  width: 60%; }
+  width: 85%; }
