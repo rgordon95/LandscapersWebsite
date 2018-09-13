@@ -130,7 +130,8 @@ content.services {
     margin-top: 35px; }
 
 content.service1, content.service2 {
-  color: #01792a; }
+  color: #01792a;
+  padding-bottom: 35px; }
   content.service1 h2, content.service2 h2 {
     text-align: center;
     padding-top: 35px; }
