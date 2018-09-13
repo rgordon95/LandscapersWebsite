@@ -31,6 +31,7 @@ $linkActiveColor: $accentColor;
   nav {
     background-color: $primaryColor;
     color: white;
+    border-top: 40px solid $secondaryColor;
   }
 
 //end nav stylesheet
@@ -58,6 +59,8 @@ footer {
 
 //index specific stylesheet
 content.about {
+  margin-right: auto;
+  margin-left: auto;
   color: $primaryColor;
   text-align: center;
   width: 60%;
