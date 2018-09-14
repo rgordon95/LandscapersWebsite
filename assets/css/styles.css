@@ -210,6 +210,29 @@ content.service1 {
       /* This is necessary for the pseudo element to work. */
       display: block;
       /* This will put the pseudo element on its own line. */
+      width: 23%;
+      /* Change this to whatever width you want. */ }
+
+content.service3 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  padding-bottom: 35px; }
+  content.service3 h2 {
+    text-align: center;
+    padding-top: 35px; }
+  content.service3 p {
+    text-align: center;
+    margin-top: 25px; }
+  content.service3 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service3 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
       width: 33%;
       /* Change this to whatever width you want. */ }
 
@@ -258,6 +281,10 @@ content.service1 img {
 
 content.service2 img {
   padding: 15px;
+  width: 90%; }
+
+content.service3 img {
+  padding-left: 35px;
   width: 90%; }
 
 content.why {

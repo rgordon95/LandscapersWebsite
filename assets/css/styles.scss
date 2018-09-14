@@ -292,8 +292,31 @@ content.services {
     }
   }
 }
-
 content.service1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: $primaryColor;
+  padding-bottom: 35px;
+  h2 {
+    text-align: center;
+    padding-top: 35px;
+  }
+  p {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px;
+    :after{
+     border-bottom: 2px solid $secondaryColor;
+     content: ""; /* This is necessary for the pseudo element to work. */
+     display: block; /* This will put the pseudo element on its own line. */
+     width: 23%; /* Change this to whatever width you want. */
+    }
+  }
+}
+
+content.service3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: $primaryColor;
   padding-bottom: 35px;
@@ -359,6 +382,10 @@ content.service1 img {
 }
 content.service2 img {
   padding: 15px;
+  width: 90%;
+}
+content.service3 img {
+  padding-left: 35px;
   width: 90%;
 }
 
