@@ -125,7 +125,7 @@ content.about {
   content.about p {
     margin-top: 35px; }
 
-content.services {
+content.process {
   padding-top: 35px;
   padding-bottom: 50px;
   margin-right: auto;
@@ -136,6 +136,24 @@ content.services {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 85%; }
+  content.process .card {
+    border-color: #39da73;
+    margin-top: 35px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    content.process .card .icon {
+      padding-bottom: 15px; }
+
+content.services {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #01792a;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   content.services .card {
     border-color: #39da73;
     margin-top: 35px;
