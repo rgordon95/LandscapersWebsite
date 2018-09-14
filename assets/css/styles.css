@@ -9,6 +9,8 @@
   background-image: url("../img/abstract-art-artificial-131634.jpg");
   margin-top: 52px;
   width: auto; }
+  .jumbotron .actionBtn {
+    margin-top: 30px; }
 
 a {
   color: #edecf5; }
