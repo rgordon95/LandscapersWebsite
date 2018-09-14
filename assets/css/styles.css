@@ -162,3 +162,13 @@ content.service1 img {
 content.service2 img {
   padding: 15px;
   width: 90%; }
+
+content.why {
+  background-image: url("../img/flora-flowes-green-122429.jpg");
+  padding-top: 50px;
+  color: #edecf5;
+  text-align: center;
+  width: auto;
+  padding-bottom: 35px; }
+  content.why p {
+    margin-top: 35px; }
