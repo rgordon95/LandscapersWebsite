@@ -162,17 +162,67 @@ content.services {
     content.services .card .icon {
       padding-bottom: 15px; }
 
-content.service1, content.service2 {
+content.service1 {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #01792a;
   padding-bottom: 35px; }
-  content.service1 h2, content.service2 h2 {
+  content.service1 h2 {
     text-align: center;
     padding-top: 35px; }
-  content.service1 p, content.service2 p {
+  content.service1 p {
     text-align: center;
     margin-top: 25px; }
+  content.service1 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service1 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 33%;
+      /* Change this to whatever width you want. */ }
+
+content.service2 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  padding-bottom: 35px; }
+  content.service2 h2 {
+    text-align: center;
+    padding-top: 35px; }
+  content.service2 p {
+    text-align: center;
+    margin-top: 25px; }
+  content.service2 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service2 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 40%;
+      /* Change this to whatever width you want. */ }
+    content.service2 .list-titles .title2:after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 45%;
+      /* Change this to whatever width you want. */ }
+    content.service2 .list-titles .title3:after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 37%;
+      /* Change this to whatever width you want. */ }
 
 content.service1 img {
   padding-left: 35px;
