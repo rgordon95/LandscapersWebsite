@@ -12,7 +12,8 @@ a:focus {
 
 nav {
   background-color: #01792a;
-  color: white; }
+  color: white;
+  font-family: 'Lato', sans-serif; }
 
 footer {
   background-image: url("../img/asymmetry-botanical-bright-1029592.jpg");
@@ -98,6 +99,7 @@ footer {
     margin-bottom: 10px; }
 
 .jumbotron {
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: white;
   background-attachment: fixed;
@@ -133,6 +135,7 @@ content.hours {
   color: #01792a;
   bottom: 35px; }
   content.hours h2 {
+    font-family: 'Lato', sans-serif;
     padding-top: 50px;
     text-align: center;
     padding-bottom: 20px; }
@@ -198,6 +201,7 @@ content.service1 {
   color: #01792a;
   padding-bottom: 35px; }
   content.service1 h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px; }
   content.service1 p {
@@ -221,6 +225,7 @@ content.service3 {
   color: #01792a;
   padding-bottom: 35px; }
   content.service3 h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px; }
   content.service3 p {
@@ -244,6 +249,7 @@ content.service2 {
   color: #01792a;
   padding-bottom: 35px; }
   content.service2 h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px; }
   content.service2 p {
@@ -303,4 +309,5 @@ content.why {
   background-size: cover;
   height: 100%; }
   content.why h4 {
+    font-family: 'Lato', sans-serif;
     margin-top: 50px; }

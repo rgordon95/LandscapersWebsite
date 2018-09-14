@@ -30,6 +30,7 @@ a:focus {
   nav {
     background-color: $primaryColor;
     color: white;
+    font-family: 'Lato', sans-serif;
   //  border-top: 40px solid $secondaryColor;
   //  border-bottom: 40px solid $primaryColor;
   }
@@ -173,6 +174,7 @@ footer {
 //index specific stylesheet
 
 .jumbotron {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: white;
     background-attachment: fixed;
@@ -234,6 +236,7 @@ content.hours {
   color: $primaryColor;
   bottom: 35px;
   h2 {
+    font-family: 'Lato', sans-serif;
     padding-top: 50px;
     text-align: center;
     padding-bottom: 20px;
@@ -302,6 +305,7 @@ content.service1 {
   color: $primaryColor;
   padding-bottom: 35px;
   h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px;
   }
@@ -326,6 +330,7 @@ content.service3 {
   color: $primaryColor;
   padding-bottom: 35px;
   h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px;
   }
@@ -350,6 +355,7 @@ content.service2 {
   color: $primaryColor;
   padding-bottom: 35px;
   h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     padding-top: 35px;
   }
@@ -408,6 +414,7 @@ content.why {
   background-size: cover;
   height: 100%;
   h4 {
+    font-family: 'Lato', sans-serif;
     margin-top: 50px;
   }
 }
