@@ -1,17 +1,3 @@
-.jumbotron {
-  text-align: center;
-  color: white;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  background-image: url("../img/abstract-art-artificial-131634.jpg");
-  margin-top: 52px;
-  width: auto; }
-  .jumbotron .actionBtn {
-    margin-top: 30px; }
-
 a {
   color: #edecf5; }
 
@@ -110,6 +96,20 @@ footer {
     padding-bottom: 30px; }
   #feedback .form-group {
     margin-bottom: 10px; }
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-image: url("../img/abstract-art-artificial-131634.jpg");
+  margin-top: 52px;
+  width: auto; }
+  .jumbotron .actionBtn {
+    margin-top: 30px; }
 
 content {
   padding-top: 15px; }
