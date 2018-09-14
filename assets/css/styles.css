@@ -125,6 +125,29 @@ content.about {
   content.about p {
     margin-top: 35px; }
 
+content.hours {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  bottom: 35px; }
+  content.hours h2, content.hours h4 {
+    text-align: center;
+    padding-top: 35px; }
+  content.hours p {
+    text-align: center;
+    margin-top: 25px; }
+  content.hours .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.hours .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 40%;
+      /* Change this to whatever width you want. */ }
+
 content.process {
   padding-top: 35px;
   padding-bottom: 50px;
@@ -238,6 +261,12 @@ content.why {
   color: #edecf5;
   text-align: center;
   width: auto;
-  padding-bottom: 35px; }
+  padding-bottom: 35px;
+  border-top: 2px solid #39da73;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
   content.why p {
     margin-top: 35px; }

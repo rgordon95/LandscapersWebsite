@@ -17,26 +17,26 @@ $linkActiveColor: $accentColor;
     background-size: cover;
     height: 100%;
     background-image: url('../img/abstract-art-artificial-131634.jpg');
-
+   //unused
   //  background-image: url('../img/close-up-green-nature-207269.jpg');
   //  background-image: url('../img/abstract-dew-fresh-207355.jpg');
 //    background-image: url('../img/agriculture-biology-close-up-396166.jpg');
 //   background-image: url('../img/asymmetry-botanical-bright-1029592.jpg');
-//    background-image: url('../img/flora-flowes-green-122429.jpg');
 // background-image: url('../img/background-beautiful-bloom-985266.jpg')
+//   background-image: url('../img/bloom-blossom-flora-57368.jpg');
+//   background-image: url('../img/bloom-blossom-flora-158636.jpg');
+//   background-image: url('../img/arrangement-bloom-blooming-462402.jpg');
+//   background-image: url('../img/beautiful-bloom-blooming-109828.jpg');
+//   background-image: url('../img/beautiful-bloom-blooming-130847.jpg');
 
 //used
 // architecture-clouds-daylight-259588.jpg
 //   background-image: url('../img/beautiful-branch-conifer-1058155.jpg');
 //   background-image: url('../img/blade-blur-dew-212324.jpg');
 //  background-image: url('../img/background-bokeh-green-6466.jpg');
-
-// untested
-//   background-image: url('../img/bloom-blossom-flora-57368.jpg');
-//   background-image: url('../img/bloom-blossom-flora-158636.jpg');
-//   background-image: url('../img/arrangement-bloom-blooming-462402.jpg');
-//   background-image: url('../img/beautiful-bloom-blooming-109828.jpg');
-//   background-image: url('../img/beautiful-bloom-blooming-130847.jpg');
+//   background-image: url('../img/asymmetry-botanical-bright-1029592.jpg');
+//    background-image: url('../img/flora-flowes-green-122429.jpg');
+//     background-image: url('../img/abstract-art-artificial-131634.jpg');
 
     margin-top: 52px;
     width: auto;
@@ -224,6 +224,32 @@ content.about {
   }
 }
 
+content.hours {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: $primaryColor;
+  bottom: 35px;
+  h2, h4 {
+    text-align: center;
+    padding-top: 35px;
+  }
+  p {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px;
+    :after{
+     border-bottom: 2px solid $secondaryColor;
+     content: ""; /* This is necessary for the pseudo element to work. */
+     display: block; /* This will put the pseudo element on its own line. */
+     width: 40%; /* Change this to whatever width you want. */
+    }
+  }
+
+}
+
 content.process {
   padding-top: 35px;
   padding-bottom: 50px;
@@ -338,7 +364,12 @@ content.why {
   text-align: center;
   width: auto;
   padding-bottom: 35px;
-  // margin-bottom: 35px;
+  border-top: 2px solid $secondaryColor;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
   p {
     margin-top: 35px;
   }
