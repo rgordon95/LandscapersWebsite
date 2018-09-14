@@ -268,5 +268,5 @@ content.why {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }
-  content.why p {
-    margin-top: 35px; }
+  content.why h4 {
+    margin-top: 50px; }
