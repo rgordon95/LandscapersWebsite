@@ -228,13 +228,18 @@ content.hours {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: $primaryColor;
   bottom: 35px;
-  h2, h4 {
+  h2 {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+  } h4 {
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 20px;
   }
   p {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 5px;
   }
 
   .list-titles {

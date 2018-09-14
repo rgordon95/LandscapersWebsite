@@ -130,12 +130,17 @@ content.hours {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #01792a;
   bottom: 35px; }
-  content.hours h2, content.hours h4 {
+  content.hours h2 {
+    padding-top: 50px;
     text-align: center;
-    padding-top: 35px; }
+    padding-bottom: 20px; }
+  content.hours h4 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px; }
   content.hours p {
     text-align: center;
-    margin-top: 25px; }
+    margin-top: 5px; }
   content.hours .list-titles {
     padding-top: 25px;
     margin-bottom: 5px; }

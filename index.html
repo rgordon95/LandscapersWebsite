@@ -230,12 +230,60 @@
 
 <content class='row row-12 hours'>
 	<div class="col col-sm-12 col-lg-6" >
-	<h2 class='col col-12'>Ellerup Landscaping</h3>
-			<p>Accepting jobs of all sizes, we enjoy working side by side with you to create your own unique landscape or personal
-			sanctuary on your property. We'll bring the equipment and know-how, and together we will bring your vision to life.</p>
+	<h2 class='col col-12'>Get In Touch</h3>
+			<p>Give us a call or send us an email today to start the path towards a brighter, greener, more beautiful landscape at your home or office.</p>
 	<h4 class=''>Hours</h4>
+	<p>Monday: 8 AM - 5 PM</p>
+	<p>Tuesday: 8 AM - 5 PM</p>
+	<p>Wednesday: 8 AM - 5 PM</p>
+	<p>Thursday: 8 AM - 5 PM</p>
+	<p>Friday: 8 AM - 5 PM</p>
+	<p>Saturday: 12 PM - 5 PM</p>
+	<h4>Phone</h4>
+	<p>(518) 235-1234</p>
 	</div>
 	<div class="col col-sm-12 col-lg-6" >
+		<content class="container-fluid" id='feedback'>
+			<div class="row row-12">
+				<div class="card col col-12">
+					<div class="card-heading">
+						<h1 id="feedback-head">Contact Us</h1>
+					</div>
+
+					<div class="card-body">
+						<!-- Start form -->
+							<!-- Post request to php script -->
+							<form action="./php/feedback_handler.php" method="post" name="form">
+
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="Email" required><br>
+								</div>
+
+								<div class="form-group">
+									<input type="tel" name="phone" class="form-control" placeholder="Phone" required><br>
+								</div>
+
+								<div class="form-group">
+									<textarea name="msg" class="form-control" placeholder="Enter Your Message Here" rows="4" required></textarea><br>
+								</div>
+
+								<div id="captcha">
+									<div class="g-recaptcha" data-sitekey="6LfH6CYUAAAAABpPRnS13C7lJCrcfKXEkjFVnJF8"></div>
+								</div>
+
+								<input type="submit" name="submit" value="Send" class="btn btn-lg btn-primary btn-block">
+
+							</form>
+					</div>
+
+				</div>
+
+			</div>
+		</content>
 	</div>
 </content>
 
