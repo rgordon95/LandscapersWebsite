@@ -1,0 +1,315 @@
+a {
+  color: #edecf5; }
+
+a:hover {
+  color: #39da73; }
+
+a:active {
+  color: #3e824f; }
+
+a:focus {
+  color: #3e824f; }
+
+nav {
+  background-color: #01792a;
+  color: white;
+  font-family: 'Lato', sans-serif; }
+  nav .navToggle {
+    color: white; }
+
+footer {
+  background-image: url("../img/asymmetry-botanical-bright-1029592.jpg");
+  border-top: 2px solid #39da73;
+  background-color: #01792a;
+  padding-top: 20px;
+  color: #edecf5; }
+  footer .tag {
+    margin-bottom: 25px; }
+
+#contact {
+  color: #01792a;
+  margin-top: 75px;
+  text-align: i;
+  margin-bottom: 50px; }
+
+#feedback {
+  margin-bottom: 25px;
+  /* Form itself */
+  /* Resize testarea */
+  /* Google captcha */
+  /* Fix sizing on captcha */
+  /* Submit button */
+  /* All feedback in a card */ }
+  #feedback #feedback-head {
+    text-align: center;
+    color: #01792a;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #feedback #mail-form {
+    width: 85%;
+    max-width: 500px; }
+  #feedback textarea {
+    resize: none;
+    overflow: scroll; }
+  #feedback #captcha {
+    margin-bottom: 30px; }
+  #feedback .g-recaptcha div {
+    margin-left: auto;
+    margin-right: auto; }
+  @media only screen and (max-width: 420px) {
+    #feedback .g-recaptcha {
+      -webkit-transform: scale(0.81);
+              transform: scale(0.81);
+      -webkit-transform-origin: 0;
+              transform-origin: 0; } }
+  #feedback .btn-primary:hover {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:active {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:focus {
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:active:focus {
+    color: #39da73;
+    background-color: #01792a;
+    border-color: #01792a; }
+  #feedback .btn-primary:disabled {
+    color: white;
+    background-color: #01792a; }
+  #feedback .btn-primary:disabled:hover {
+    color: white;
+    background-color: #01792a; }
+  #feedback .btn-primary {
+    color: #01792a;
+    background-color: #edecf5;
+    border-color: #01792a; }
+  #feedback .card {
+    margin: auto;
+    margin-top: 30px;
+    min-width: 50%;
+    max-width: 75%; }
+  #feedback .card-body {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #feedback .form-group {
+    margin-bottom: 10px; }
+
+.jumbotron {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-image: url("../img/abstract-art-artificial-131634.jpg");
+  margin-top: 52px;
+  width: auto; }
+  .jumbotron .actionBtn {
+    margin-top: 30px; }
+
+content {
+  padding-top: 15px; }
+  content .bigImg {
+    height: 450px;
+    width: auto; }
+
+content.about {
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #01792a;
+  text-align: center;
+  width: 60%; }
+  content.about p {
+    margin-top: 35px; }
+
+content.hours {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  bottom: 35px; }
+  content.hours h2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px; }
+  content.hours h4 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px; }
+  content.hours p {
+    text-align: center;
+    margin-top: 5px; }
+  content.hours .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.hours .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 40%;
+      /* Change this to whatever width you want. */ }
+
+content.process {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #01792a;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%; }
+  content.process .card {
+    border-color: #39da73;
+    margin-top: 35px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    content.process .card .icon {
+      padding-bottom: 15px; }
+
+content.services {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #01792a;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  content.services .card {
+    border-color: #39da73;
+    margin-top: 35px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    content.services .card .icon {
+      padding-bottom: 15px; }
+
+content.service1 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  padding-bottom: 35px; }
+  content.service1 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 35px; }
+  content.service1 p {
+    text-align: center;
+    margin-top: 25px; }
+  content.service1 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service1 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 23%;
+      /* Change this to whatever width you want. */ }
+
+content.service3 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  padding-bottom: 35px; }
+  content.service3 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 35px; }
+  content.service3 p {
+    text-align: center;
+    margin-top: 25px; }
+  content.service3 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service3 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 33%;
+      /* Change this to whatever width you want. */ }
+
+content.service2 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #01792a;
+  padding-bottom: 35px; }
+  content.service2 h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 35px; }
+  content.service2 p {
+    text-align: center;
+    margin-top: 25px; }
+  content.service2 .list-titles {
+    padding-top: 25px;
+    margin-bottom: 5px; }
+    content.service2 .list-titles :after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 40%;
+      /* Change this to whatever width you want. */ }
+    content.service2 .list-titles .title2:after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 45%;
+      /* Change this to whatever width you want. */ }
+    content.service2 .list-titles .title3:after {
+      border-bottom: 2px solid #39da73;
+      content: "";
+      /* This is necessary for the pseudo element to work. */
+      display: block;
+      /* This will put the pseudo element on its own line. */
+      width: 37%;
+      /* Change this to whatever width you want. */ }
+
+content.service1 img {
+  padding-left: 35px;
+  width: 90%; }
+
+content.service2 img {
+  padding: 15px;
+  width: 90%; }
+
+content.service3 img {
+  padding-left: 35px;
+  width: 90%; }
+
+content.why {
+  background-image: url("../img/flora-flowes-green-122429.jpg");
+  padding-top: 50px;
+  color: #edecf5;
+  text-align: center;
+  width: auto;
+  padding-bottom: 35px;
+  border-top: 2px solid #39da73;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+  content.why h4 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px; }
