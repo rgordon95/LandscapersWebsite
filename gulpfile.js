@@ -1,43 +1,34 @@
-// add functionality to compile sounds folder into dist build
-
-
 'use strict';
 
 var gulp = require('gulp'),
-
-    sass = require('gulp-sass'), // sass converter
-    autoprefixer = require('gulp-autoprefixer'), //adds vendor prefixes for css
-    concat = require('gulp-concat'),
-    del = require('del'), //for clean task
-    imagemin = require('gulp-imagemin'), //minify images
-    uglify = require('gulp-uglify'), //uglify
-    usemin = require('gulp-usemin'), //minify code
+    sass = require('gulp-sass'),
+    del = require('del'),
+    imagemin = require('gulp-imagemin'),
+    uglify = require('gulp-uglify'),
+    usemin = require('gulp-usemin'),
     rev = require('gulp-rev'),
     cleanCss = require('gulp-clean-css'),
     flatmap = require('gulp-flatmap'),
-    htmlmin = require('gulp-htmlmin'), //minify html
-    browserSync = require('browser-sync'); //live reload
+    htmlmin = require('gulp-htmlmin'),
+    browserSync = require('browser-sync');
 
 
     gulp.task('sass', function () {
-  return gulp.src('./assets/css/*.scss')
+  return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions']
-    }))
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('./css'));
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch('./assets/css/*.scss', ['sass']);
+  gulp.watch('./css/*.scss', ['sass']);
 });
- //runs browsersync
+
 gulp.task('browser-sync', function () {
    var files = [
       './*.html',
       './assets/css/*.css',
       './assets/img/*.{png,jpg,gif}',
-      './js/*.js'
+      './assets/js/*.js'
    ];
 
    browserSync.init(files, {
@@ -57,19 +48,32 @@ gulp.task('default', ['browser-sync'], function() {
 gulp.task('clean', function() {
     return del(['dist']);
 });
- //copy fonts
+
 gulp.task('copyfonts', function() {
-   gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof}*')
+   gulp.src('./assets/fonts/**/*.{ttf,woff,eof,svg}*')
    .pipe(gulp.dest('./dist/assets/fonts'));
 });
 
 // Images
 gulp.task('imagemin', function() {
-  return gulp.src('./assets/img/*.{svg,png,jpg,gif}')
+  return gulp.src('./assets/img/*.{png,jpg,gif}')
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
     .pipe(gulp.dest('dist/assets/img'));
 });
-  //takes minified img for dist
+
+
+gulp.task('usemincss', function() {
+  return gulp.src('./assets/css/styles.css')
+  .pipe(flatmap(function(stream, file){
+      return stream
+        .pipe(usemin({
+            css: [ rev() ],
+            inlinecss: [ cleanCss(), 'concat' ]
+        }))
+    }))
+    .pipe(gulp.dest('dist/assets/css'));
+});
+
 gulp.task('usemin', function() {
   return gulp.src('./*.html')
   .pipe(flatmap(function(stream, file){
@@ -84,22 +88,7 @@ gulp.task('usemin', function() {
     }))
     .pipe(gulp.dest('dist/'));
 });
-//builds dist folder and cleans up old one
+
 gulp.task('build',['clean'], function() {
-    gulp.start('copyfonts','imagemin','usemin');
+    gulp.start('copyfonts','imagemin','usemin', 'usemincss');
 });
-
-//added with udacity course
-gulp.task('scripts-dist', function () {
-  gulp.src('js/**/*.js')
-  .pipe(concat('all.js'))
-  .pipe(uglify())
-  .pipe(gulp.dest('dist/js'));
-});
-
-//added with udacity course - makes producrtion version (minified, linted, etc.)
-gulp.task('dist', [
-  'copyfonts',
-  'build',
-  'scripts-dist'
-]);
