@@ -3,7 +3,7 @@
     function post_captcha($user_response) {
         $fields_string = '';
         $fields = array(
-            'secret' => '6LfH6CYUAAAAANcQkuFA83rG-xmPGZEAyH26llxv',
+            'secret' => '6LftiXEUAAAAAGB7JldFlRBqKw2bkBSHcbFRQSGr',
             'response' => $user_response
         );
         foreach($fields as $key=>$value)
@@ -29,10 +29,10 @@
     		$email=$_POST['email'];
     		$phone=$_POST['phone'];
     		$msg=$_POST['msg'];
-    		$to='email@here.com'; // Receiver Email ID, Replace with your email ID
-    		$subject='Landscaping';
+    		$to='email@email.com'; // Receiver Email ID, Replace with your email ID
+    		$subject='Gordon Enterprises';
     		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
-    		$headers="From: email@here.com";
+    		$headers="From: email@email.com";
     		if(mail($to, $subject, $message, $headers)){
                 header("Location: ../index.html");
     		}

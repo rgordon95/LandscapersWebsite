@@ -172,18 +172,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
 
+	<!-- Submit form to php -->
+	<script>
+		$("form").on("submit", function(e) {
+			e.preventDefault();
+			if(grecaptcha.getResponse().length !== 0) {
+				$(".btn").prop("disabled", true);
 
-		<!-- Submit form to php -->
-		<script>
-			$("form").on("submit", function(e) {
-				e.preventDefault();
-				if(grecaptcha.getResponse().length !== 0) {
-					$(".btn").prop("disabled", true);
-					$(".btn").attr("value", "Feedback Submitted!");
-				}
-				else {
-					$(".btn").attr("value", "Click captcha");
-				}
 				$.ajax({
 					type: "post",
 					url: "./php/feedback_handler.php",
@@ -192,9 +187,18 @@
 
 					}
 				})
-			})
-		</script>
+				$(this).find("input[type=msg], textarea").val("");
+				$(this).find("input[type=tel], input").val("");
+				$(this).find("input[type=email], input").val("");
+				$(this).find("input[type=subject], input").val("");
+				$(this).find("input[type=text], input").val("");
+				$(".btn").attr("value", "Feedback Submitted!");
+			} else {
+				$(".btn").attr("value", "Click captcha");
+			}
 
+		})
+	</script>
 </body>
 
 </html>
